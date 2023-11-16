@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dee2e6;
+}
+
+header{
+    background-color: #212529;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+
+.intro {
+    width: 30%;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    border-bottom: 2px solid white;
+}
+
+
+.generic {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.generic img {
+    width: 350px;
+}
+
+.generic article {
+    width: 60%;
+}
+
+.generic a {
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.chapters {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card img {
+    width: 188px;
+}
+
+.details {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.details img {
+    width: 188px;;
+}
+
+.details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details p {
+    width: 50%;
+}
